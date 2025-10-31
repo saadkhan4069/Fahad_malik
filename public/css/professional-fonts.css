@@ -1,0 +1,119 @@
+/* Professional Font Family Styles for Shipment System */
+
+/* Import Professional Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Base Font Settings */
+body {
+    font-family: 'Inter', 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6,
+.navbar-brand,
+.card-title,
+.card-header h6,
+.modal-title {
+    font-family: 'Poppins', 'Inter', sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+}
+
+/* Buttons */
+.btn {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.025em;
+}
+
+/* Form Elements */
+.form-control,
+.form-select,
+.form-label,
+.input-group-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+/* Tables */
+.table,
+.table th,
+.table td {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.table th {
+    font-weight: 500;
+}
+
+/* Navigation */
+.navbar-nav .nav-link {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+/* Cards */
+.card {
+    font-family: 'Inter', sans-serif;
+}
+
+.card-header {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+/* Alerts */
+.alert {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+/* Badges */
+.badge {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+/* Dropdowns */
+.dropdown-menu,
+.dropdown-item {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+/* Pagination */
+.pagination {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Breadcrumbs */
+.breadcrumb {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Professional Typography Enhancements */
+.text-muted {
+    font-weight: 400;
+}
+
+.lead {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+/* Print Styles */
+@media print {
+    body {
+        font-family: 'Inter', 'Poppins', Arial, sans-serif;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Poppins', Arial, sans-serif;
+    }
+}
