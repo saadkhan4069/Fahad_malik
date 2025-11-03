@@ -29,7 +29,7 @@ return new class extends Migration
             $table->decimal('package_value', 10, 2)->default(0);
             $table->decimal('weight', 8, 2);
             $table->json('dimensions'); // length, width, height
-            $table->string('service_type')->default('standard');
+            $table->string('service_type_id');
             $table->datetime('pickup_date');
             $table->datetime('delivery_date')->nullable();
             $table->text('special_instructions')->nullable();

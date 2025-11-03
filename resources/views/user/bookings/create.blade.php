@@ -41,41 +41,41 @@
                             <div class="col-md-6">
                             <div class="form-group">
                                     <label for="shipper_name" class="form-label">Name *</label>
-                                    <input type="text" class="form-control" id="shipper_name" name="shipper_name" value="John Doe" required>
+                                    <input type="text" class="form-control" id="shipper_name" name="shipper_name" placeholder="Enter shipper name" required>
                             </div>
                         </div>
                             <div class="col-md-6">
                             <div class="form-group">
                                     <label for="shipper_email" class="form-label">Email</label>
-                                    <input type="email" class="form-control" id="shipper_email" name="shipper_email" value="john.doe@example.com">
+                                    <input type="email" class="form-control" id="shipper_email" name="shipper_email" placeholder="Enter email address">
                             </div>
                         </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                    <label for="shipper_address" class="form-label">Address *</label>
-                                    <input type="text" class="form-control" id="shipper_address" name="shipper_address" value="123 Main St" required>
+                                    <label for="shipper_address" class="form-label">Address</label>
+                                    <input type="text" class="form-control" id="shipper_address" name="shipper_address" placeholder="Enter street address">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                    <label for="shipper_city" class="form-label">City *</label>
-                                    <input type="text" class="form-control" id="shipper_city" name="shipper_city" value="Anytown" required>
+                                    <label for="shipper_city" class="form-label">City</label>
+                                    <input type="text" class="form-control" id="shipper_city" name="shipper_city" placeholder="Enter city name">
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-3">
                                     <div class="form-group">
-                                    <label for="shipper_zip" class="form-label">Postal Code *</label>
-                                    <input type="text" class="form-control" id="shipper_zip" name="shipper_zip" value="12345" required>
+                                    <label for="shipper_zip" class="form-label">Postal Code</label>
+                                    <input type="text" class="form-control" id="shipper_zip" name="shipper_zip" placeholder="Enter postal code">
                                     </div>
                                 </div>
                                 <div class="col-md-3">
                                     <div class="form-group">
-                                        <label for="shipper_country" class="form-label">Country *</label>
-                                        <select class="form-control" id="shipper_country" name="shipper_country" required>
+                                        <label for="shipper_country" class="form-label">Country</label>
+                                        <select class="form-control" id="shipper_country" name="shipper_country">
                                             <option value="">Select Country</option>
                                             @foreach($countries as $country)
                                                 <option value="{{ $country->code }}">{{ $country->name }}</option>
@@ -85,22 +85,22 @@
                                 </div>
                                 <div class="col-md-3">
                                     <div class="form-group">
-                                    <label for="shipper_state" class="form-label">State *</label>
-                                    <input type="text" class="form-control" id="shipper_state" name="shipper_state" value="California" required>
+                                    <label for="shipper_state" class="form-label">State</label>
+                                    <input type="text" class="form-control" id="shipper_state" name="shipper_state" placeholder="Enter state/province">
                                     </div>
                                 </div>
                                 <div class="col-md-3">
                                     <div class="form-group">
-                                    <label for="shipper_phone" class="form-label">Phone *</label>
-                                    <input type="tel" class="form-control" id="shipper_phone" name="shipper_phone" value="+1-234-567-890" required>
+                                    <label for="shipper_phone" class="form-label">Phone</label>
+                                    <input type="tel" class="form-control" id="shipper_phone" name="shipper_phone" placeholder="Enter phone number">
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                             <div class="col-md-4">
                                     <div class="form-group">
-                                        <label for="shipper_cnic" class="form-label">CNIC *</label>
-                                    <input type="text" class="form-control" id="shipper_cnic" name="shipper_cnic" value="12345-6789012-3" required>
+                                        <label for="shipper_cnic" class="form-label">CNIC</label>
+                                    <input type="text" class="form-control" id="shipper_cnic" name="shipper_cnic" placeholder="Enter CNIC number">
                                     </div>
                                 </div>
                             <div class="col-md-4">
@@ -119,41 +119,41 @@
                                 <div class="col-md-6">
                                     <div class="form-group">
                                     <label for="consignee_name" class="form-label">Name *</label>
-                                    <input type="text" class="form-control" id="consignee_name" name="consignee_name" value="Jane Smith" required>
+                                    <input type="text" class="form-control" id="consignee_name" name="consignee_name" placeholder="Enter consignee name" required>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
                                     <label for="consignee_email" class="form-label">Email</label>
-                                    <input type="email" class="form-control" id="consignee_email" name="consignee_email" value="jane.smith@example.com">
+                                    <input type="email" class="form-control" id="consignee_email" name="consignee_email" placeholder="Enter email address">
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                    <label for="consignee_address" class="form-label">Address *</label>
-                                    <input type="text" class="form-control" id="consignee_address" name="consignee_address" value="456 International Blvd" required>
+                                    <label for="consignee_address" class="form-label">Address</label>
+                                    <input type="text" class="form-control" id="consignee_address" name="consignee_address" placeholder="Enter street address">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                    <label for="consignee_city" class="form-label">City *</label>
-                                    <input type="text" class="form-control" id="consignee_city" name="consignee_city" value="Otherville" required>
+                                    <label for="consignee_city" class="form-label">City</label>
+                                    <input type="text" class="form-control" id="consignee_city" name="consignee_city" placeholder="Enter city name">
                             </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-3">
                                     <div class="form-group">
-                                    <label for="consignee_zip" class="form-label">Postal Code *</label>
-                                    <input type="text" class="form-control" id="consignee_zip" name="consignee_zip" value="67890" required>
+                                    <label for="consignee_zip" class="form-label">Postal Code</label>
+                                    <input type="text" class="form-control" id="consignee_zip" name="consignee_zip" placeholder="Enter postal code">
                                     </div>
                                 </div>
                                 <div class="col-md-3">
                                     <div class="form-group">
-                                        <label for="consignee_country" class="form-label">Country *</label>
-                                        <select class="form-control" id="consignee_country" name="consignee_country" required>
+                                        <label for="consignee_country" class="form-label">Country</label>
+                                        <select class="form-control" id="consignee_country" name="consignee_country">
                                             <option value="">Select Country</option>
                                             @foreach($countries as $country)
                                                 <option value="{{ $country->code }}">{{ $country->name }}</option>
@@ -163,14 +163,14 @@
                                 </div>
                                 <div class="col-md-3">
                                     <div class="form-group">
-                                    <label for="consignee_state" class="form-label">State *</label>
-                                    <input type="text" class="form-control" id="consignee_state" name="consignee_state" value="Other State" required>
+                                    <label for="consignee_state" class="form-label">State</label>
+                                    <input type="text" class="form-control" id="consignee_state" name="consignee_state" placeholder="Enter state/province">
                                     </div>
                                 </div>
                                 <div class="col-md-3">
                                     <div class="form-group">
-                                        <label for="consignee_phone" class="form-label">Phone *</label>
-                                    <input type="tel" class="form-control" id="consignee_phone" name="consignee_phone" value="+098-765-432-1" required>
+                                        <label for="consignee_phone" class="form-label">Phone</label>
+                                    <input type="tel" class="form-control" id="consignee_phone" name="consignee_phone" placeholder="Enter phone number">
                                     </div>
                                 </div>
                             </div>
@@ -214,7 +214,7 @@
                                 <div class="col-md-6">
                                     <div class="form-group">
                                     <label for="package_value" class="form-label">Declared value for customs * ($)</label>
-                                    <input type="number" step="0.01" class="form-control" id="package_value" name="package_value" value="100.00" required>
+                                    <input type="number" step="0.01" class="form-control" id="package_value" name="package_value" placeholder="0.00" required>
                                     </div>
                                 </div>
                             </div>
@@ -222,19 +222,19 @@
                                 <div class="col-md-3">
                                     <div class="form-group">
                                     <label for="length" class="form-label">Length (CM) *</label>
-                                    <input type="number" step="0.01" class="form-control" id="length" name="length" value="10" required>
+                                    <input type="number" step="0.01" class="form-control" id="length" name="length" placeholder="0.00" required>
                                     </div>
                                 </div>
                                 <div class="col-md-3">
                                     <div class="form-group">
                                     <label for="width" class="form-label">Width (CM) *</label>
-                                    <input type="number" step="0.01" class="form-control" id="width" name="width" value="10" required>
+                                    <input type="number" step="0.01" class="form-control" id="width" name="width" placeholder="0.00" required>
                                     </div>
                                 </div>
                                 <div class="col-md-3">
                                     <div class="form-group">
                                     <label for="height" class="form-label">Height (CM) *</label>
-                                    <input type="number" step="0.01" class="form-control" id="height" name="height" value="10" required>
+                                    <input type="number" step="0.01" class="form-control" id="height" name="height" placeholder="0.00" required>
                                     </div>
                                 </div>
                                 <div class="col-md-3">
@@ -249,7 +249,7 @@
                                 <div class="col-md-6">
                                     <div class="form-group">
                                     <label for="weight" class="form-label">Ch. Wt. (KG) *</label>
-                                    <input type="number" step="0.01" class="form-control" id="weight" name="weight" value="10" required>
+                                    <input type="number" step="0.01" class="form-control" id="weight" name="weight" placeholder="0.00" required>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -287,7 +287,7 @@
                                 <div class="col-md-6">
                                     <div class="form-group">
                                     <label for="shipment_charges" class="form-label">Shipment Charges *</label>
-                                    <input type="number" step="0.01" class="form-control" id="shipment_charges" name="shipment_charges" value="0" required>
+                                    <input type="number" step="0.01" class="form-control" id="shipment_charges" name="shipment_charges" placeholder="0.00" required>
                                     <small class="form-text text-muted">Amount to be shown on proforma invoice and label</small>
                                     </div>
                                 </div>
